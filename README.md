@@ -46,13 +46,12 @@
 	# linux系统请注意, 需要安装libpng12(centos已测试, 其它系统还没测试), MacOSX系统不需要
 	`yum install libpng12` # centos
 
-1. `git clone https://github.com/skytoup/AppServer`
-2. `cd AppServer`
-3. `gcc vendors/pngdefry/pngdefry.c -o pngdefry # 编译pngdfry`
-4. `pip install -r requirements.txt # 安装依赖`
-5. `python main.py # 运行服务器`
+1. `git clone https://github.com/johnlcd/AppServer`
+2. `gcc vendors/pngdefry/pngdefry.c -o pngdefry # 编译pngdfry`
+3. `pip install -r requirements.txt # 安装依赖`
+4. `python main.py # 运行服务器`
 ![运行](img/2.png)
-6. `open https://your_bing_host:8000` # or 打开浏览器, 输入https://{Config的host}:8000, 回车
+5. `open https://your_bing_host:8000` # or 打开浏览器, 输入https://{Config的host}:8000, 回车
 
 #### Docker运行
 1. `git clone https://github.com/skytoup/AppServer`
